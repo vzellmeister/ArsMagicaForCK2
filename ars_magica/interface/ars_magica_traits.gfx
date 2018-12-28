@@ -1,0 +1,15 @@
+spriteTypes = {
+    spriteType = {
+        name =  "GFX_trait_gift"
+        texturefile = "gfx/traits/gift.tga"
+
+    }
+    spriteType = {
+        name =  "GFX_trait_gentle_gift"
+        texturefile = "gfx/traits/gentle_gift.tga"
+    }
+    spriteType = {
+        name =  "GFX_trait_blatant_gift"
+        texturefile = "gfx/traits/blatant_gift.tga"
+    }
+}

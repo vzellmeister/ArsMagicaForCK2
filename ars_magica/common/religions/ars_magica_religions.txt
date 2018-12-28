@@ -1,0 +1,188 @@
+
+hermetic = {
+	has_coa_on_barony_only = yes
+	graphical_culture = hellenicgfx
+	playable = yes
+	hostile_within_group = no
+	
+	ai_convert_same_group = 1
+	ai_convert_other_group = 0	# never try to convert
+	ai_fabricate_claims = no
+	
+	color = { 0.6 0.0 0.0 }
+	
+	interface_skin = { hellenic_interface }
+    # Names given only to Christian characters (base names)
+    male_names = {
+        Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory 
+		Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip 
+		Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Jesus Job Joshua Cyrus Luke Zachariah
+    }
+    female_names = {
+		Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen 
+		Magdalena Margaret Maria Marine Patricia Philippa Rachel 
+		Sarah Sophia Stephania
+    }
+
+    hermetic_christian = {
+        graphical_culture = westerngfx
+
+        parent = catholic
+        icon = 1
+		heresy_icon = 6
+
+        color = { 0.6 0.6 0.6 }
+
+        investiture = no
+        can_have_antipopes = no
+        can_excommunicate = no
+        can_grant_divorce = no
+        can_grant_claim = no
+        can_call_crusade = no
+        can_retire_to_monastery = no
+        priests_can_inherit = no
+
+        religious_clothing_head = 0
+		religious_clothing_priest = 1
+
+        intermarry = catholic
+		intermarry = orthodox
+		intermarry = miaphysite
+		intermarry = nestorian
+		intermarry = fraticelli
+		intermarry = waldensian
+		intermarry = lollard
+		intermarry = monophysite
+		intermarry = bogomilist
+		intermarry = monothelite
+		intermarry = iconoclast
+		intermarry = paulician
+		intermarry = messalian
+        intermarry = hermetic_hellenic
+        intermarry = hermetic_jewish
+        intermarry = hermetic_muslim
+    }
+    hermetic_muslim = {
+        graphical_culture = muslimgfx
+
+        parent = sunni
+
+		icon = 3
+		heresy_icon = 8
+		
+		color = { 0 0.6 0 }
+		
+		high_god_name = GOD_ALLAH
+		
+		god_names = {
+			GOD_ALLAH GOD_THE_GREATEST
+		}
+		
+		evil_god_names = {
+			IBLIS SHAYTAN
+		}
+		
+		can_call_crusade = yes
+		priests_can_marry = yes
+		psc_marriage = no # Disallow uncle-nice and aunt-nephew marriages
+		max_wives = 4
+		matrilineal_marriages = no
+		
+		landed_kin_prestige_bonus = yes
+		attacking_same_religion_piety_loss = yes
+		uses_decadence = yes
+		uses_jizya_tax = yes
+
+		intermarry = sunni
+		intermarry = zikri
+		intermarry = yazidi
+		intermarry = ibadi
+		intermarry = kharijite
+		intermarry = shiite
+		intermarry = druze
+		intermarry = hurufi
+        intermarry = hermetic_christian
+        intermarry = hermetic_hellenic
+        intermarry = hermetic_jewish
+    }
+    hermetic_jewish = {
+		graphical_culture = jewishgfx
+		
+		icon = 38
+		heresy_icon = 39
+		
+		color = { 0.1 0.7 1.0 }
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_TORAH
+		priest_title = RABBI
+		
+		high_god_name = GOD_GOD
+		
+		god_names = {
+			GOD_GOD GOD_THE_LORD ADONAI
+		}
+		evil_god_names = {
+			SATAN
+		}
+		
+		can_grant_divorce = yes
+		can_call_crusade = yes
+		join_crusade_if_bordering_hostile = yes
+		can_grant_invasion_cb = invasion
+		
+		priests_can_marry = yes
+		
+		religious_clothing_head = 7
+		religious_clothing_priest = 7
+		
+		expel_modifier = expelled_jewish
+
+        intermarry = jewish
+		intermarry = samaritan
+		intermarry = karaite
+        intermarry = hermetic_christian
+        intermarry = hermetic_hellenic
+        intermarry = hermetic_muslim
+    }
+    hermetic_hellenic = {
+        graphical_culture = hellenicgfx
+
+        reformed = hellenic_pagan_reformed
+
+        icon = 37
+		heresy_icon = 14
+		
+		color = { 0.6 0.2 0.1 }
+		
+		high_god_name = GOD_JUPITER
+		
+		god_names = {
+			GOD_JUPITER GOD_NEPTUNE GOD_PLUTO GOD_JUNO GOD_CERES GOD_MINERVA GOD_MARS GOD_VULCAN GOD_VENUS GOD_APOLLO GOD_DIANA GOD_VESTA
+		}
+		evil_god_names = {
+			GOD_SATURN GOD_BACCHUS GOD_PLUTO GOD_MERCURY GOD_TYPHON
+		}
+
+        reformed = hellenic_pagan_reformed
+        parent = hellenic_pagan
+
+		crusade_name = GREAT_HOLY_WAR
+		scripture_name = THE_LEGENDS
+		priest_title = AUGUR
+		
+		priests_can_marry = no
+		priests_can_inherit = no
+		female_temple_holders = yes
+		
+		religious_clothing_head = 12
+		religious_clothing_priest = 11
+		
+		can_demand_religious_conversion = no
+
+        intermarry = hellenic_pagan
+        intermarry = hellenic_pagan_reformed
+        intermarry = hermetic_christian
+        intermarry = hermetic_jewish
+        intermarry = hermetic_muslim
+    }
+}

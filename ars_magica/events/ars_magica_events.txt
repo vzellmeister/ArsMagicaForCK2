@@ -1,0 +1,175 @@
+###########################################
+#                                         #
+# AM Order of Hermes Events               #
+#                                         #
+# ID AM.0001-AM.1000		              #
+#                                         #
+###########################################
+
+# Power: Bind Familiar
+character_event = {
+	id = AM.0100
+	desc = EVTDESC_AM_0100
+	picture = GFX_evt_mysterious_forest
+	border = GFX_event_normal_frame_religion
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_character_modifier = cat_familiar
+		remove_character_modifier = raven_familiar
+		remove_character_modifier = owl_familiar
+		remove_character_modifier = wolf_familiar
+	}
+
+	#Intrigue (cat)
+	option = {
+		name = EVTOPTA_MNM_7815
+
+		add_character_modifier = {
+			name = cat_familiar
+			duration = -1
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				has_education_intrigue_trigger = yes
+			}
+		}
+	}
+
+	#Martial (wolf)
+	option = {
+		name = EVTOPTB_MNM_7815
+
+		add_character_modifier = {
+			name = wolf_familiar
+			duration = -1
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				has_education_martial_trigger = yes
+			}
+		}
+	}
+
+	#Owl (learning)
+	option = {
+		name = EVTOPTC_MNM_7815
+
+		add_character_modifier = {
+			name = owl_familiar
+			duration = -1
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				has_education_learning_trigger = yes
+			}
+		}
+	}
+
+	#Raven familiar
+	option = {
+		name = EVTOPTD_MNM_7815
+
+		add_character_modifier = {
+			name = raven_familiar
+			duration = -1
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 3
+				has_education_stewardship_trigger = yes
+			}
+		}
+	}
+}
+
+# Power: Enchant Talisman
+character_event = {
+	id = AM.0110
+	desc = EVTDESC_AM_0110
+	picture = GFX_evt_treasure_chamber
+	border = GFX_event_normal_frame_economy
+
+	is_triggered_only = yes
+
+	immediate = { }
+
+	option = { #Weapon (martial)
+		name = EVT_OPTA_AM_0110
+        add_artifact = sword_tier_4_fury
+        hidden_effect = {
+            set_character_flag = enchanting_talisman
+            set_character_flag = talisman_weapon
+            character_event = { id = AM.0115 days = 50 random = 50 }
+        }
+		ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0
+                any_artifact = { has_artifact_flag = combat_weapon }
+            }
+        }
+	}
+
+    option = { #staff  (learning)
+		name = EVT_OPTB_AM_0110
+        add_artifact = staff_of_majesty_2
+        hidden_effect = {
+            set_character_flag = enchanting_talisman
+            set_character_flag = talisman_staff
+            character_event = { id = AM.0115 days = 50 random = 50 }
+        }
+		ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0
+                any_artifact = { has_artifact_flag = staff }
+            }
+        }
+	}
+
+    option = { #mask (intrigue)
+		name = EVT_OPTC_AM_0110
+        add_artifact = crown_african_mask_1
+        hidden_effect = {
+            set_character_flag = enchanting_talisman
+            set_character_flag = talisman_mask
+            character_event = { id = AM.0115 days = 50 random = 50 }
+        }
+		ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0
+                any_artifact = { has_artifact_flag = mask }
+            }
+        }
+	}
+
+    option = { #scepter (stewardship)
+		name = EVT_OPTD_AM_0110
+        add_artifact = scepter_hellenic_fylkir
+        hidden_effect = {
+            set_character_flag = enchanting_talisman
+            set_character_flag = talisman_scepter
+            character_event = { id = AM.0115 days = 50 random = 50 }
+        }
+		ai_chance = {
+            factor = 10
+            modifier = {
+                factor = 0
+                any_artifact = { has_artifact_flag = scepter }
+            }
+        }
+	}
+}

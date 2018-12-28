@@ -1,0 +1,107 @@
+targeted_decisions = {
+	
+	#Power: Bind familiar
+	order_of_hermes_bind_familiar = {
+		is_in_society = order_of_hermes
+		
+		filter = self
+		ai_target_filter = self
+		ai_check_interval = 12
+		
+		potential = {
+			prisoner = no
+			NOT = { trait = incapable }
+			character = FROM
+			society_rank >= 2
+			has_the_gift = yes
+		}
+
+		allow = {
+			custom_tooltip = {
+				text = devil_worshipers_summon_familiar_cd_tooltip
+				NOT = { has_character_modifier = summon_familiar_cooldown }
+			}
+			has_society_currency_major_trigger = yes
+		}
+
+		effect = {
+			increase_visibility_effect = yes
+			hidden_effect = {
+				add_character_modifier = {
+					name = summon_familiar_cooldown
+					years = 5
+					hidden = yes
+				}
+				character_event = { id = AM.0100 }
+			}
+			detract_society_currency_major_effect = yes	
+		}
+
+		revoke_allowed = {
+			always = no
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_character_modifier = wolf_familiar
+					has_character_modifier = cat_familiar
+					has_character_modifier = owl_familiar
+					has_character_modifier = raven_familiar
+				}
+			}
+		}
+    }
+
+    #Power: Enchant talisman
+    order_of_hermes_enchant_talisman = {
+        is_in_society = order_of_hermes
+        society_rank_up_decision = order_of_hermes_rank_up_decision
+
+        filter = self
+        ai_target_filter = self
+        ai_check_interval = 12
+
+		potential = {
+			prisoner = no
+			NOT = { trait = incapable }
+			character = FROM
+			society_rank >= 2
+			has_the_gift = yes
+		}
+
+        allow = {
+            has_society_currency_major_trigger = yes 
+            custom_tooltip = {
+				text = order_of_hermes_enchant_talisman_tooltip
+				NOT = { has_character_modifier = enchant_talisman_cooldown }
+			}
+        }
+
+        effect = {
+            hidden_effect = {
+				add_character_modifier = {
+					name = enchant_talisman_cooldown
+					years = 5
+					hidden = yes
+				}
+				character_event = { id = AM.0110 }
+			}
+        }
+
+            ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_character_modifier = wolf_familiar
+					has_character_modifier = cat_familiar
+					has_character_modifier = owl_familiar
+					has_character_modifier = raven_familiar
+				}
+			}
+        }
+    }
+}

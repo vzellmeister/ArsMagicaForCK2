@@ -1,0 +1,32 @@
+gentle_gift = {
+    birth = 1
+    inherit_chance = 15
+
+    ruler_designer_cost = 30
+}
+
+gift = {
+    birth = 8
+    inherit_chance = 15
+    
+    opposites = {
+        magus
+    }
+    
+    opposite_opinion = 15
+    general_opinion = -15
+    ruler_designer_cost = 15
+}
+
+blatant_gift = {
+    birth = 1
+    inherit_chance = 15
+
+    opposites = {
+        magus
+    }
+
+    opposite_opinion = 30
+	general_opinion = -30
+    ruler_designer_cost = 5
+}

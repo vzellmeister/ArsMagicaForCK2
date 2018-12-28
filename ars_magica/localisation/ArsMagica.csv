@@ -1,0 +1,42 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+;;;;;;;;;;;;;;x
+hermetic;Hermetic;;;;;;;;;;;;;;;;;;;x
+hermetic_christian;Hermetic Christian;;;;;;;;;;;;;;;;;;;x
+hermetic_christian_DESC;Hermetic Christian DESCRIPTION;;;;;;;;;;;;;;;;;;;x
+hermetic_muslim;Hermetic Muslim;;;;;;;;;;;;;;;;;;;x
+hermetic_muslim_DESC;Hermetic Muslim DESCRIPTION;;;;;;;;;;;;;;;;;;;x
+hermetic_jewish;Hermetic Jewish;;;;;;;;;;;;;;;;;;;x
+hermetic_jewish;Hermetic Jewish DESCRIPTION;;;;;;;;;;;;;;;;;;;x
+hermetic_hellenic;Hermetic Hellenic;;;;;;;;;;;;;;;;;;;x
+hermetic_hellenic;Hermetic Hellenic DESCRIPTION;;;;;;;;;;;;;;;;;;;x
+gift;Has the Gift;;;;;;;;;;;;;;;;;;;x
+gift_desc;You have the ability to work magic. Your magical nature disturbs normal people and animals.;;;;;;;;;;;;;;;;;;;x
+gentle_gift;Has the Gentle Gift;;;;;;;;;;;;;;;;;;;x
+gentle_gift_desc;You have the ability to work magic. Your magical nature does not disturb normal people and animals, your Gift is subtle and quiet.;;;;;;;;;;;;;;;;;;;x
+blatant_gift;Has the Blatant Gift;;;;;;;;;;;;;;;;;;;x
+blatant_gift_desc;You have the ability to work magic. Your magical nature severely disturbs normal people and animals.;;;;;;;;;;;;;;;;;;;x
+order_of_hermes;Order of Hermes;;;;;;;;;;;;;x
+order_of_hermes_desc;An order of wizards stretching across the whole of Europe, bound by an oath that keeps them from fighting each other or trying to rule the mundanes.;;;;;;;;;;;;;x
+order_of_hermes_rank_1_male;Apprentice;;;;;;;;;;;;;x
+order_of_hermes_rank_1_female;Apprentice;;;;;;;;;;;;;x
+order_of_hermes_rank_2_male;Magus;;;;;;;;;;;;;x
+order_of_hermes_rank_2_female;Maga;;;;;;;;;;;;;x
+order_of_hermes_rank_3_male;Adeptus;;;;;;;;;;;;;x
+order_of_hermes_rank_3_female;Adepta;;;;;;;;;;;;;x
+order_of_hermes_rank_4_male;Archimagus;;;;;;;;;;;;;x
+order_of_hermes_rank_4_female;Archimaga;;;;;;;;;;;;;x
+currency_name_order_of_hermes;Magical Might;;;;;;;;;;;;;x
+order_of_hermes_bind_familiar;Bind familiar;;;;;;;;;;;;;x
+order_of_hermes_bind_familiar_desc;Bind familiar;;;;;;;;;;;;;x
+order_of_hermes_bind_familiar_power_desc;Enables §Gright-clicking§! on your character's portrait to Bind a Familiar, in exchange for §Y[Root.Society.GetCurrency]§!.;;;;;;;;;;;;;x
+order_of_hermes_familiar_power_desc;Enables §Gright-clicking§! on your character's portrait to Bind a Familiar, in exchange for §Y[Root.Society.GetCurrency]§!.;;;;;;;;;;;;;x
+EVTDESC_AM_0100;As a [Root.GetSocietyRank], I can summon a supernatural beast to be my companion. This familiar will be my eyes and ears, as well as imbue me with its powers.;;;;;;;;;;;;;;x
+order_of_hermes_enchant_talisman;Enchant Talisman;;;;;;;;;;;;;x
+order_of_hermes_enchant_talisman_desc;Enchant Talisman;;;;;;;;;;;;;x
+order_of_hermes_enchant_talisman_tooltip;§Y[Root.GetTitledFirstName]§! has not enchanted a talisman in the past 5 years\n;;;;;;;;;;;;;x
+order_of_hermes_enchant_talisman_power_desc;Enables §Gright-clicking§! on your character's portrait to Enchant a Talisman, in exchange for §Y[Root.Society.GetCurrency]§!.;;;;;;;;;;;;;x
+EVTDESC_AM_0110;What kind of Talisman do you wish to enchant?;;;;;;;;;;;;;x
+EVT_OPTA_AM_0110;I wish to enchant a deadly weapon as my Talisman!;;;;;;;;;;;;;x
+EVT_OPTB_AM_0110;I wish to enchant a mighty staff as my Talisman!;;;;;;;;;;;;;x
+EVT_OPTC_AM_0110;I wish to enchant a mysterious mask as my Talisman!;;;;;;;;;;;;;x
+EVT_OPTD_AM_0110;I wish to enchant an imposing scepter as my Talisman!;;;;;;;;;;;;;x
