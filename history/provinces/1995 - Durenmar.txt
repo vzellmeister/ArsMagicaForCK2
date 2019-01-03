@@ -1,0 +1,15 @@
+# 14149 - Covenant of Durenmar
+
+# County Title
+title = c_durenmar
+
+# Settlements
+max_settlements = 2
+b_durenmar_1 = temple
+b_durenmar_2 = temple
+
+# Misc
+culture = german
+religion = catholic
+
+# History

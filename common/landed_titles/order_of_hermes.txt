@@ -1,0 +1,45 @@
+e_order_of_hermes = {
+		color = { 54 167 156 }
+		capital = 1995 # Durenmar
+        culture = hermetic_culture
+
+        dignity = 1000
+
+    k_rhine_tribunal = {
+        color = { 34 137 126 }
+        capital = 1995 # Durenmar
+        culture = hermetic_culture
+
+        d_durenmar = {
+            color = { 34 137 126 }
+            capital = 1995 # Durenmar
+            culture = hermetic_culture
+
+            c_durenmar = {
+                color={ 124 0 175 }
+                color2={ 220 220 0 }
+
+                capital = 1995 # Durenmar
+                holy_site = hermetic_religion
+
+                title = "PRIMUS_BONISAGUS"
+                title_female = "PRIMA_BONISAGUS"
+                foa = "PRIMUS_FOA"
+
+                # culture = "hermetic_culture"
+                religion = "hermetic_religion"
+
+                allow = {
+                    government_type = merchant_republic_government
+                }
+
+                title_prefix = "COVENANT_PREFIX" # TODO: add localisation
+                dignity = 1000
+
+                b_durenmar_1 = { }
+                b_durenmar_2 = { }
+
+            }
+        }
+    }
+}

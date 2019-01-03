@@ -1,0 +1,6 @@
+#character
+# on_startup = {
+# 	events = {
+#         AM.0001 #Chain for fixing government types
+# 	}
+# }

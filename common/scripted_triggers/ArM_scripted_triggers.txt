@@ -1,0 +1,45 @@
+
+has_the_gift = {
+    OR = {
+        trait = gift
+        trait = gentle_gift
+        trait = blatant_gift
+    }
+}
+
+has_hermetic_education = {
+    OR =  {
+        trait = hermetic_education_1
+        trait = hermetic_education_2
+        trait = hermetic_education_3
+        trait = hermetic_education_4
+    }
+}
+
+is_hermetic = {
+    OR = {
+        society_member_of = order_of_hermes
+        religion_group = hermetic
+        culture_group = hermetic
+    }
+}
+
+is_magus = {
+    AND = {
+        is_hermetic = yes
+        society_rank >= 2
+    }
+}
+
+can_see_gift = {
+    OR = {
+        society_member_of = order_of_hermes
+        trait = gift
+        trait = gentle_gift
+        trait = blatant_gift
+    }
+}
+
+has_talisman = {
+    any_artifact = { has_artifact_flag = talisman }
+}

@@ -1,0 +1,2 @@
+
+enchant_talisman_cooldown = { icon = 1 }

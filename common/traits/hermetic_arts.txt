@@ -1,0 +1,772 @@
+################ Misc ################
+hermetic_level_0 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_animal_1
+        hermetic_level_aquam_1
+        hermetic_level_auram_1
+        hermetic_level_corpus_1
+        hermetic_level_herbam_1
+        hermetic_level_ignem_1
+        hermetic_level_imaginem_1
+        hermetic_level_mentem_1
+        hermetic_level_terram_1
+        hermetic_level_vim_1
+        hermetic_level_animal_2
+        hermetic_level_aquam_2
+        hermetic_level_auram_2
+        hermetic_level_corpus_2
+        hermetic_level_herbam_2
+        hermetic_level_ignem_2
+        hermetic_level_imaginem_2
+        hermetic_level_mentem_2
+        hermetic_level_terram_2
+        hermetic_level_vim_2
+        hermetic_level_animal_3
+        hermetic_level_aquam_3
+        hermetic_level_auram_3
+        hermetic_level_corpus_3
+        hermetic_level_herbam_3
+        hermetic_level_ignem_3
+        hermetic_level_imaginem_3
+        hermetic_level_mentem_3
+        hermetic_level_terram_3
+        hermetic_level_vim_3
+        hermetic_level_animal_4
+        hermetic_level_aquam_4
+        hermetic_level_auram_4
+        hermetic_level_corpus_4
+        hermetic_level_herbam_4
+        hermetic_level_ignem_4
+        hermetic_level_imaginem_4
+        hermetic_level_mentem_4
+        hermetic_level_terram_4
+        hermetic_level_vim_4
+    }
+
+}
+
+
+################ Apprentice ################
+hermetic_level_animal_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_animal_2
+        hermetic_level_animal_3
+        hermetic_level_animal_4
+    }
+
+    martial = 1
+    intrigue = 0
+}
+hermetic_level_aquam_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_aquam_2
+        hermetic_level_aquam_3
+        hermetic_level_aquam_4
+    }
+
+    stewardship = 1
+    diplomacy = 0
+}
+hermetic_level_auram_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_auram_2
+        hermetic_level_auram_3
+        hermetic_level_auram_4
+    }
+
+    stewardship = 1
+    diplomacy = 0
+}
+hermetic_level_corpus_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_corpus_2
+        hermetic_level_corpus_3
+        hermetic_level_corpus_4
+    }
+
+    learning = 1
+    martial = 0
+}
+hermetic_level_herbam_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_herbam_2
+        hermetic_level_herbam_3
+        hermetic_level_herbam_4
+    }
+
+    stewardship = 1
+    learning = 0
+}
+hermetic_level_ignem_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_ignem_2
+        hermetic_level_ignem_3
+        hermetic_level_ignem_4
+    }
+
+    martial = 1
+    learning = 0
+}
+hermetic_level_imaginem_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_imaginem_2
+        hermetic_level_imaginem_3
+        hermetic_level_imaginem_4
+    }
+
+    intrigue = 1
+    diplomacy = 0
+}
+hermetic_level_mentem_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_mentem_2
+        hermetic_level_mentem_3
+        hermetic_level_mentem_4
+    }
+
+    diplomacy = 1
+    intrigue = 0
+}
+hermetic_level_terram_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_terram_2
+        hermetic_level_terram_3
+        hermetic_level_terram_4
+    }
+
+    stewardship = 1
+    martial = 0
+}
+hermetic_level_vim_1 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_vim_2
+        hermetic_level_vim_3
+        hermetic_level_vim_4
+    }
+
+    learning = 1
+    intrigue = 0
+}
+
+################ Initiate ################
+hermetic_level_animal_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_animal_1
+        hermetic_level_animal_3
+        hermetic_level_animal_4
+    }
+
+    martial = 2
+    intrigue = 1
+    local_movement_speed = 0.1
+}
+hermetic_level_aquam_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_aquam_1
+        hermetic_level_aquam_3
+        hermetic_level_aquam_4
+    }
+
+    stewardship = 2
+    diplomacy = 1
+    tradevalue = 1
+}
+hermetic_level_auram_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_auram_1
+        hermetic_level_auram_3
+        hermetic_level_auram_4
+    }
+
+    stewardship = 2
+    diplomacy = 1
+    attrition = -0.1
+}
+hermetic_level_corpus_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_corpus_1
+        hermetic_level_corpus_3
+        hermetic_level_corpus_4
+    }
+
+    learning = 2
+    martial = 1
+    health = 0.5
+}
+hermetic_level_herbam_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_herbam_1
+        hermetic_level_herbam_3
+        hermetic_level_herbam_4
+    }
+
+    stewardship = 2
+    learning = 1
+    local_tax_modifier = 0.05
+}
+hermetic_level_ignem_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_ignem_1
+        hermetic_level_ignem_3
+        hermetic_level_ignem_4
+    }
+
+    martial = 2
+    learning = 1
+    combat_rating = 5
+}
+hermetic_level_imaginem_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_imaginem_1
+        hermetic_level_imaginem_3
+        hermetic_level_imaginem_4
+    }
+
+    intrigue = 2
+    diplomacy = 1
+    plot_power_modifier = 0.05
+}
+hermetic_level_mentem_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_mentem_1
+        hermetic_level_mentem_3
+        hermetic_level_mentem_4
+    }
+
+    diplomacy = 2
+    intrigue = 1
+    general_opinion = 5
+}
+hermetic_level_terram_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_terram_1
+        hermetic_level_terram_3
+        hermetic_level_terram_4
+    }
+
+    stewardship = 2
+    martial = 1
+    build_time_modifier = -0.05
+}
+hermetic_level_vim_2 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_vim_1
+        hermetic_level_vim_3
+        hermetic_level_vim_4
+    }
+
+    learning = 2
+    intrigue = 1
+    tech_growth_modifier = 0.05
+}
+
+################ Adept ################
+hermetic_level_animal_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_animal_1
+        hermetic_level_animal_2
+        hermetic_level_animal_4
+    }
+
+    martial = 4
+    intrigue = 2
+    local_movement_speed = 0.2
+}
+hermetic_level_aquam_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_aquam_1
+        hermetic_level_aquam_2
+        hermetic_level_aquam_4
+    }
+
+    stewardship = 4
+    diplomacy = 2
+    tradevalue = 1.5
+}
+hermetic_level_auram_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_auram_1
+        hermetic_level_auram_2
+        hermetic_level_auram_4
+    }
+
+    stewardship = 4
+    diplomacy = 2
+    attrition = -0.2
+}
+hermetic_level_corpus_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_corpus_1
+        hermetic_level_corpus_2
+        hermetic_level_corpus_4
+    }
+
+    learning = 4
+    martial = 2
+    health = 1
+}
+hermetic_level_herbam_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_herbam_1
+        hermetic_level_herbam_2
+        hermetic_level_herbam_4
+    }
+
+    stewardship = 4
+    learning = 2
+    local_tax_modifier = 0.1
+}
+hermetic_level_ignem_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_ignem_1
+        hermetic_level_ignem_2
+        hermetic_level_ignem_4
+    }
+
+    martial = 4
+    learning = 2
+    combat_rating = 10
+}
+hermetic_level_imaginem_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_imaginem_1
+        hermetic_level_imaginem_2
+        hermetic_level_imaginem_4
+    }
+
+    intrigue = 4
+    diplomacy = 2
+    plot_power_modifier = 0.1
+}
+hermetic_level_mentem_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_mentem_1
+        hermetic_level_mentem_2
+        hermetic_level_mentem_4
+    }
+
+    diplomacy = 4
+    intrigue = 2
+    general_opinion = 10
+}
+hermetic_level_terram_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_terram_1
+        hermetic_level_terram_2
+        hermetic_level_terram_4
+    }
+
+    stewardship = 4
+    martial = 2
+    build_time_modifier = -0.1
+}
+hermetic_level_vim_3 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_vim_1
+        hermetic_level_vim_2
+        hermetic_level_vim_4
+    }
+
+    learning = 4
+    intrigue = 2
+    tech_growth_modifier = 0.1
+}
+
+################ Master ################
+hermetic_level_animal_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_animal_1
+        hermetic_level_animal_2
+        hermetic_level_animal_3
+    }
+
+    martial = 6
+    intrigue = 3
+    local_movement_speed = 0.3
+}
+hermetic_level_aquam_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_aquam_1
+        hermetic_level_aquam_2
+        hermetic_level_aquam_3
+    }
+
+    stewardship = 6
+    diplomacy = 3
+    tradevalue = 3
+}
+hermetic_level_auram_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_auram_1
+        hermetic_level_auram_2
+        hermetic_level_auram_3
+    }
+
+    stewardship = 6
+    diplomacy = 3
+    attrition = -0.3
+}
+hermetic_level_corpus_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_corpus_1
+        hermetic_level_corpus_2
+        hermetic_level_corpus_3
+    }
+
+    learning = 6
+    martial = 3
+    health = 1.5
+}
+hermetic_level_herbam_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_herbam_1
+        hermetic_level_herbam_2
+        hermetic_level_herbam_3
+    }
+
+    stewardship = 6
+    learning = 3
+    local_tax_modifier = 0.15
+}
+hermetic_level_ignem_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_ignem_1
+        hermetic_level_ignem_2
+        hermetic_level_ignem_3
+    }
+
+    martial = 6
+    learning = 3
+    combat_rating = 15
+}
+hermetic_level_imaginem_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_imaginem_1
+        hermetic_level_imaginem_2
+        hermetic_level_imaginem_3
+    }
+
+    intrigue = 6
+    diplomacy = 3
+    plot_power_modifier = 0.15
+}
+hermetic_level_mentem_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_mentem_1
+        hermetic_level_mentem_2
+        hermetic_level_mentem_3
+    }
+
+    diplomacy = 6
+    intrigue = 3
+    general_opinion = 15
+}
+hermetic_level_terram_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_terram_1
+        hermetic_level_terram_2
+        hermetic_level_terram_3
+    }
+
+    stewardship = 6
+    martial = 3
+    build_time_modifier = -0.15
+}
+hermetic_level_vim_4 = {
+    is_visible = {
+        OR = {
+            is_hermetic = yes
+            character = FROM
+        }
+    }
+
+    opposites = {
+        hermetic_level_vim_1
+        hermetic_level_vim_2
+        hermetic_level_vim_3
+    }
+
+    learning = 6
+    intrigue = 3
+    tech_growth_modifier = 0.15
+}

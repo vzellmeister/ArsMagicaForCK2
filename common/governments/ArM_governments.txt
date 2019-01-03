@@ -1,0 +1,47 @@
+republic_governments = {
+
+	hermetic_government = {
+		preferred_holdings = {
+			CITY
+			TEMPLE
+			}
+		allowed_holdings = { 
+			TRADE_POST
+			CITY
+			CASTLE
+			FAMILY_PALACE
+			FORT
+			HOSPITAL
+		}
+		allowed_holdings_culture = { # Will not get the wrong government type penalty for tribes of the same culture
+			TRIBAL
+		}
+		accepts_liege_governments = { # Accepts other republics
+			republic_government
+		}
+		free_revoke_on_governments_religion = { # Tribal vassals of other religions can have their titles revoked for free
+			tribal_government
+		}
+		frame_suffix = "_merchantrepublic"
+		title_prefix = "hermetic_"
+		potential = { }
+		
+		color = { 255 0 0 }
+		
+		merchant_republic = yes
+		
+		can_imprison_without_reason = no
+		can_revoke_without_reason = no
+		can_usurp_kingdoms_and_empires = no
+		have_gender_laws = no
+		can_grant_kingdoms_and_empires_to_other_government = no
+		allows_matrilineal_marriage = yes
+		uses_bride_price = no
+
+		can_build_tribal = no
+		
+		landed_inheritance = no
+		
+		capital_move_delay = 600
+	}
+}

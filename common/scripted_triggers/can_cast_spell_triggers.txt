@@ -1,0 +1,570 @@
+can_cast_animal_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_animal_1
+        trait = hermetic_level_animal_2
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_aquam_1
+        trait = hermetic_level_aquam_2
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_auram_1
+        trait = hermetic_level_auram_2
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_corpus_1
+        trait = hermetic_level_corpus_2
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_herbam_1
+        trait = hermetic_level_herbam_2
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_ignem_1
+        trait = hermetic_level_ignem_2
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_imaginem_1
+        trait = hermetic_level_imaginem_2
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_mentem_1
+        trait = hermetic_level_mentem_2
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_terram_1
+        trait = hermetic_level_terram_2
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_0 = {
+    OR = {
+        has_hermetic_education = yes
+        trait = hermetic_level_vim_1
+        trait = hermetic_level_vim_2
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_1 = {
+    OR = {
+        trait = hermetic_level_animal_1
+        trait = hermetic_level_animal_2
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_1 = {
+    OR = {
+        trait = hermetic_level_aquam_1
+        trait = hermetic_level_aquam_2
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_1 = {
+    OR = {
+        trait = hermetic_level_auram_1
+        trait = hermetic_level_auram_2
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_1 = {
+    OR = {
+        trait = hermetic_level_corpus_1
+        trait = hermetic_level_corpus_2
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_1 = {
+    OR = {
+        trait = hermetic_level_herbam_1
+        trait = hermetic_level_herbam_2
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_1 = {
+    OR = {
+        trait = hermetic_level_ignem_1
+        trait = hermetic_level_ignem_2
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_1 = {
+    OR = {
+        trait = hermetic_level_imaginem_1
+        trait = hermetic_level_imaginem_2
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_1 = {
+    OR = {
+        trait = hermetic_level_mentem_1
+        trait = hermetic_level_mentem_2
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_1 = {
+    OR = {
+        trait = hermetic_level_terram_1
+        trait = hermetic_level_terram_2
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_1 = {
+    OR = {
+        trait = hermetic_level_vim_1
+        trait = hermetic_level_vim_2
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_2 = {
+    OR = {
+        trait = hermetic_level_animal_1
+        trait = hermetic_level_animal_2
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_2 = {
+    OR = {
+        trait = hermetic_level_aquam_1
+        trait = hermetic_level_aquam_2
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_2 = {
+    OR = {
+        trait = hermetic_level_auram_1
+        trait = hermetic_level_auram_2
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_2 = {
+    OR = {
+        trait = hermetic_level_corpus_1
+        trait = hermetic_level_corpus_2
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_2 = {
+    OR = {
+        trait = hermetic_level_herbam_1
+        trait = hermetic_level_herbam_2
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_2 = {
+    OR = {
+        trait = hermetic_level_ignem_1
+        trait = hermetic_level_ignem_2
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_2 = {
+    OR = {
+        trait = hermetic_level_imaginem_1
+        trait = hermetic_level_imaginem_2
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_2 = {
+    OR = {
+        trait = hermetic_level_mentem_1
+        trait = hermetic_level_mentem_2
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_2 = {
+    OR = {
+        trait = hermetic_level_terram_1
+        trait = hermetic_level_terram_2
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_2 = {
+    OR = {
+        trait = hermetic_level_vim_1
+        trait = hermetic_level_vim_2
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_3 = {
+    OR = {
+        trait = hermetic_level_animal_2
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_3 = {
+    OR = {
+        trait = hermetic_level_aquam_2
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_3 = {
+    OR = {
+        trait = hermetic_level_auram_2
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_3 = {
+    OR = {
+        trait = hermetic_level_corpus_2
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_3 = {
+    OR = {
+        trait = hermetic_level_herbam_2
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_3 = {
+    OR = {
+        trait = hermetic_level_ignem_2
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_3 = {
+    OR = {
+        trait = hermetic_level_imaginem_2
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_3 = {
+    OR = {
+        trait = hermetic_level_mentem_2
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_3 = {
+    OR = {
+        trait = hermetic_level_terram_2
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_3 = {
+    OR = {
+        trait = hermetic_level_vim_2
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_4 = {
+    OR = {
+        trait = hermetic_level_animal_2
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_4 = {
+    OR = {
+        trait = hermetic_level_aquam_2
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_4 = {
+    OR = {
+        trait = hermetic_level_auram_2
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_4 = {
+    OR = {
+        trait = hermetic_level_corpus_2
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_4 = {
+    OR = {
+        trait = hermetic_level_herbam_2
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_4 = {
+    OR = {
+        trait = hermetic_level_ignem_2
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_4 = {
+    OR = {
+        trait = hermetic_level_imaginem_2
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_4 = {
+    OR = {
+        trait = hermetic_level_mentem_2
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_4 = {
+    OR = {
+        trait = hermetic_level_terram_2
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_4 = {
+    OR = {
+        trait = hermetic_level_vim_2
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_5 = {
+    OR = {
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_5 = {
+    OR = {
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_5 = {
+    OR = {
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_5 = {
+    OR = {
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_5 = {
+    OR = {
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_5 = {
+    OR = {
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_5 = {
+    OR = {
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_5 = {
+    OR = {
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_5 = {
+    OR = {
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_5 = {
+    OR = {
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_6 = {
+    OR = {
+        trait = hermetic_level_animal_3
+        trait = hermetic_level_animal_4
+    }
+}
+can_cast_aquam_6 = {
+    OR = {
+        trait = hermetic_level_aquam_3
+        trait = hermetic_level_aquam_4
+    }
+}
+can_cast_auram_6 = {
+    OR = {
+        trait = hermetic_level_auram_3
+        trait = hermetic_level_auram_4
+    }
+}
+can_cast_corpus_6 = {
+    OR = {
+        trait = hermetic_level_corpus_3
+        trait = hermetic_level_corpus_4
+    }
+}
+can_cast_herbam_6 = {
+    OR = {
+        trait = hermetic_level_herbam_3
+        trait = hermetic_level_herbam_4
+    }
+}
+can_cast_ignem_6 = {
+    OR = {
+        trait = hermetic_level_ignem_3
+        trait = hermetic_level_ignem_4
+    }
+}
+can_cast_imaginem_6 = {
+    OR = {
+        trait = hermetic_level_imaginem_3
+        trait = hermetic_level_imaginem_4
+    }
+}
+can_cast_mentem_6 = {
+    OR = {
+        trait = hermetic_level_mentem_3
+        trait = hermetic_level_mentem_4
+    }
+}
+can_cast_terram_6 = {
+    OR = {
+        trait = hermetic_level_terram_3
+        trait = hermetic_level_terram_4
+    }
+}
+can_cast_vim_6 = {
+    OR = {
+        trait = hermetic_level_vim_3
+        trait = hermetic_level_vim_4
+    }
+}
+can_cast_animal_7 = {
+    trait = hermetic_level_animal_4
+}
+can_cast_aquam_7 = {
+    trait = hermetic_level_aquam_4
+}
+can_cast_auram_7 = {
+    trait = hermetic_level_auram_4
+}
+can_cast_corpus_7 = {
+    trait = hermetic_level_corpus_4
+}
+can_cast_herbam_7 = {
+    trait = hermetic_level_herbam_4
+}
+can_cast_ignem_7 = {
+    trait = hermetic_level_ignem_4
+}
+can_cast_imaginem_7 = {
+    trait = hermetic_level_imaginem_4
+}
+can_cast_mentem_7 = {
+    trait = hermetic_level_mentem_4
+}
+can_cast_terram_7 = {
+    trait = hermetic_level_terram_4
+}
+can_cast_vim_7 = {
+    trait = hermetic_level_vim_4
+}
+can_cast_animal_8 = {
+    trait = hermetic_level_animal_4
+}
+can_cast_aquam_8 = {
+    trait = hermetic_level_aquam_4
+}
+can_cast_auram_8 = {
+    trait = hermetic_level_auram_4
+}
+can_cast_corpus_8 = {
+    trait = hermetic_level_corpus_4
+}
+can_cast_herbam_8 = {
+    trait = hermetic_level_herbam_4
+}
+can_cast_ignem_8 = {
+    trait = hermetic_level_ignem_4
+}
+can_cast_imaginem_8 = {
+    trait = hermetic_level_imaginem_4
+}
+can_cast_mentem_8 = {
+    trait = hermetic_level_mentem_4
+}
+can_cast_terram_8 = {
+    trait = hermetic_level_terram_4
+}
+can_cast_vim_8 = {
+    trait = hermetic_level_vim_4
+}

@@ -1,0 +1,304 @@
+
+order_of_hermes = {
+	primary_attribute = learning
+	is_secret = yes
+	criminal = yes
+	devil_worshipper = no
+	opinion_to_other_members = +5
+	opinion_to_pretenders = -20			#Pretenders is the opinion you have of people perceived/discovered to be in your society.
+	opinion_to_perceived_members = -10	#Perceived is the opinion you have of people perceived/discovered to be of a society you're not part of
+	opinion_per_rank_above = +5
+	sound = hermetic_society_interface
+	society_ranks_gfx = generic_ranks
+	society_influence = no
+	
+	active = {
+		NOT = {
+			has_game_rule = {
+				name = supernatural_events
+				value = off
+			}
+		}
+	}
+	indestructible = yes
+	
+	can_join_society = {
+		hidden_trigger = {
+            NOT = {
+                has_game_rule = {
+                    name = supernatural_events
+                    value = off
+                }
+            }
+        AND = {
+            age >= 12
+            age <= 20
+
+        }
+			NAND = {
+				ai = yes
+				is_society_rank_full = { 
+					society = order_of_hermes
+					rank = 1
+				}
+			}
+		}
+		has_the_gift = yes
+		hidden_trigger = {
+			NOT = { has_character_flag = society_join_block }
+		}
+		trigger_if = {
+			limit = { prisoner = yes }
+			prisoner = no
+		}
+        AND = {
+            ai = no
+            any_playable_ruler = {
+                is_hermetic = yes
+                NOT = {
+                    distance = { value = 300 who = ROOT }
+                }
+            }
+        }
+	}
+
+	show_society = {
+        hidden_trigger = {
+            NOT = {
+                has_game_rule = {
+                    name = supernatural_events
+                    value = none
+                }
+            }
+        }
+		age = 12
+        AND = {
+            ai = no
+            any_playable_ruler = {
+                is_hermetic = yes
+                NOT = {
+                    distance = { value = 300 who = ROOT }
+                }
+            }
+        }
+	}
+
+	potential = { } #no rules
+
+	society_rank = {
+		level = 1
+		limit = 20
+		startup_limit = 10
+		decisions = { }
+	}
+	
+	society_rank = {
+		level = 2
+		limit = 50
+		startup_limit = 6
+		modifier = { 
+			is_visible = {
+				OR = {
+					society_member_of = order_of_hermes
+					FROM = { is_society_discovered = yes }
+				}
+			}
+			learning = 1
+		}
+		decisions = {
+            # order_of_hermes_enchant_talisman
+			# order_of_hermes_bind_familiar
+		}
+	}
+	
+	society_rank = {
+		level = 3
+		limit = 25
+		startup_limit = 3
+		modifier = {
+			is_visible = {
+				OR = {
+					society_member_of = order_of_hermes
+					FROM = { is_society_discovered = yes }
+				}
+			}
+			learning = 2
+		}
+		decisions = {
+			# devil_worshipers_dark_healing #Available Power: Demonic Healing. Sacrifice a prisoner to heal a random illness or maiming.
+		}	
+	}
+
+	society_rank = {
+		level = 4
+		limit = 5 
+		startup_limit = 1
+		modifier = { 
+			is_visible = {
+				OR = {
+					society_member_of = order_of_hermes
+					FROM = { is_society_discovered = yes }
+				}
+			}
+			learning = 3
+		}
+		decisions = {
+			# DW_prolong_life #Available Power: Prolong Life
+			# DW_demonic_impregnation #Available power: Unholy Impregnation
+		}
+		obedience_tooltip = obedience_tooltip #this can be unique per rank/society 
+		obedient = {
+			ROOT = {
+				always = yes
+			}
+		}
+	}
+
+	plots = {
+		plot1_tag
+		plot2_tag
+	}
+    
+	ambitions = {
+		ambition1_tag
+		ambition2_tag
+	}
+
+	monthly_currency_gain = {
+		name = currency_name_order_of_hermes
+    
+		per_attribute = {
+    		name = learning
+    		value = 0.5
+    	}
+		has_trait = {
+			value = 2
+			trait = diligent
+		}
+		has_trait = {
+			value = 1
+			trait = scholar
+		}
+		has_trait = {
+			value = 1
+			trait = mystic
+		}
+		has_trait = {
+			value = 1
+			trait = erudite
+		}
+		has_trait = {
+			value = 1
+			trait = stubborn
+		}
+		has_trait = {
+			value = 1
+			trait = patient
+		}
+		has_trait = {
+			value = 1
+			trait = genius
+		}
+		has_trait = {
+			value = 1
+			trait = quick
+		}
+		has_trait = {
+			value = 1
+			trait = shrewd
+		}
+		has_trait = {
+			value = 1
+			trait = just
+		}
+		society_rank = {
+			rank = 4
+			value = 10
+		}
+	}
+
+	member_score_per_attribute = 3
+	member_score_per_rank = 100
+
+	member_score = {
+		value = 10
+
+		modifier = {
+			factor = 2
+			trait = diligent
+		}
+		modifier = {
+			factor = 1.5
+			trait = scholar
+		}
+		modifier = {
+			factor = 1.5
+			trait = mystic
+		}
+		modifier = {
+			factor = 1.5
+			trait = erudite
+		}
+		modifier = {
+			factor = 1.5
+			trait = stubborn
+		}
+		modifier = {
+			factor = 1.5
+			trait = patient
+		}
+		modifier = {
+			factor = 1.5
+			OR = {
+				trait = genius
+				trait = quick
+				trait = shrewd
+			}
+		}
+		modifier = {
+			factor = 1.5
+			trait = just
+		}
+	}
+    startup_populate = {
+	    trigger = {
+			ai = yes
+	    	controls_religion = no
+			age = 16
+			is_in_society = no
+			is_dumb_trigger = no
+			OR = {
+				NOT = { is_priest = yes }
+				OR = {
+					trait = mystic
+					trait = scholar
+					trait = cynical
+				}
+			}
+			OR = {
+				AND = {
+					is_landed = yes
+					OR = { 
+						learning = 14
+						trait = scholar
+						trait = faqih
+						trait = erudite
+						trait = genius
+						trait = mystic
+					}
+				}
+				AND = {
+					learning = 18
+					OR = {
+						trait = scholar
+						trait = faqih
+						trait = erudite
+						trait = genius
+						trait = mystic
+						learning = 20
+					}
+				}
+			}
+		}
+	}
+}

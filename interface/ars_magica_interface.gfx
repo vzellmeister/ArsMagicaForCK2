@@ -1,0 +1,411 @@
+spriteTypes = {
+
+    ###Society window
+    spriteType = {
+		name = "GFX_society_main_background_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\society_bg_order_of_hermes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_society_expansion_background_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\society_exp_bg_order_of_hermes.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_icon_small_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\symbol_small_order_of_hermes.dds"
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_society_influence_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\society_influence_order_of_hermes.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_society_portrait_ring_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_order_of_hermes.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_society_portrait_ring_small_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\portrait_ring_small_order_of_hermes.dds"
+	}
+	
+	spriteType = { 
+		name = "GFX_society_currency_order_of_hermes"
+		texturefile = "gfx\\interface\\societies\\society_currency_order_of_hermes.dds"
+	}
+
+    ###Traits
+	# Magical Talents
+    spriteType = {
+        name =  "GFX_trait_gift"
+        texturefile = "gfx/traits/gift.tga"
+
+    }
+    spriteType = {
+        name =  "GFX_trait_gentle_gift"
+        texturefile = "gfx/traits/gentle_gift.tga"
+    }
+    spriteType = {
+        name =  "GFX_trait_blatant_gift"
+        texturefile = "gfx/traits/blatant_gift.tga"
+    }
+    #Hermetic educations
+	spriteType = {
+        name = "GFX_trait_hermetic_education_1"
+        texturefile = "gfx/traits/hermetic_education_1.tga"
+    }
+	spriteType = {
+        name = "GFX_trait_hermetic_education_2"
+        texturefile = "gfx/traits/hermetic_education_2.tga"
+    }
+	spriteType = {
+        name = "GFX_trait_hermetic_education_3"
+        texturefile = "gfx/traits/hermetic_education_3.tga"
+    }
+	spriteType = {
+        name = "GFX_trait_hermetic_education_4"
+        texturefile = "gfx/traits/hermetic_education_4.tga"
+    }
+	#Hermetic Arts
+    spriteType = {
+        name = "GFX_trait_hermetic_level_0"
+        texturefile = "gfx/traits/hermetic_level_0.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_animal_1"
+        texturefile = "gfx/traits/hermetic_level_animal_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_aquam_1"
+        texturefile = "gfx/traits/hermetic_level_aquam_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_auram_1"
+        texturefile = "gfx/traits/hermetic_level_auram_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_corpus_1"
+        texturefile = "gfx/traits/hermetic_level_corpus_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_herbam_1"
+        texturefile = "gfx/traits/hermetic_level_herbam_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_ignem_1"
+        texturefile = "gfx/traits/hermetic_level_ignem_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_imaginem_1"
+        texturefile = "gfx/traits/hermetic_level_imaginem_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_mentem_1"
+        texturefile = "gfx/traits/hermetic_level_mentem_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_terram_1"
+        texturefile = "gfx/traits/hermetic_level_terram_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_vim_1"
+        texturefile = "gfx/traits/hermetic_level_vim_1.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_animal_2"
+        texturefile = "gfx/traits/hermetic_level_animal_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_aquam_2"
+        texturefile = "gfx/traits/hermetic_level_aquam_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_auram_2"
+        texturefile = "gfx/traits/hermetic_level_auram_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_corpus_2"
+        texturefile = "gfx/traits/hermetic_level_corpus_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_herbam_2"
+        texturefile = "gfx/traits/hermetic_level_herbam_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_ignem_2"
+        texturefile = "gfx/traits/hermetic_level_ignem_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_imaginem_2"
+        texturefile = "gfx/traits/hermetic_level_imaginem_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_mentem_2"
+        texturefile = "gfx/traits/hermetic_level_mentem_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_terram_2"
+        texturefile = "gfx/traits/hermetic_level_terram_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_vim_2"
+        texturefile = "gfx/traits/hermetic_level_vim_2.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_animal_3"
+        texturefile = "gfx/traits/hermetic_level_animal_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_aquam_3"
+        texturefile = "gfx/traits/hermetic_level_aquam_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_auram_3"
+        texturefile = "gfx/traits/hermetic_level_auram_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_corpus_3"
+        texturefile = "gfx/traits/hermetic_level_corpus_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_herbam_3"
+        texturefile = "gfx/traits/hermetic_level_herbam_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_ignem_3"
+        texturefile = "gfx/traits/hermetic_level_ignem_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_imaginem_3"
+        texturefile = "gfx/traits/hermetic_level_imaginem_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_mentem_3"
+        texturefile = "gfx/traits/hermetic_level_mentem_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_terram_3"
+        texturefile = "gfx/traits/hermetic_level_terram_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_vim_3"
+        texturefile = "gfx/traits/hermetic_level_vim_3.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_animal_4"
+        texturefile = "gfx/traits/hermetic_level_animal_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_aquam_4"
+        texturefile = "gfx/traits/hermetic_level_aquam_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_auram_4"
+        texturefile = "gfx/traits/hermetic_level_auram_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_corpus_4"
+        texturefile = "gfx/traits/hermetic_level_corpus_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_herbam_4"
+        texturefile = "gfx/traits/hermetic_level_herbam_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_ignem_4"
+        texturefile = "gfx/traits/hermetic_level_ignem_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_imaginem_4"
+        texturefile = "gfx/traits/hermetic_level_imaginem_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_mentem_4"
+        texturefile = "gfx/traits/hermetic_level_mentem_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_terram_4"
+        texturefile = "gfx/traits/hermetic_level_terram_4.tga"
+    }
+    spriteType = {
+        name = "GFX_trait_hermetic_level_vim_4"
+        texturefile = "gfx/traits/hermetic_level_vim_4.tga"
+    }
+
+
+	###Government
+	spriteType = {
+		name = "GFX_icon_hermetic_government"
+		texturefile = "gfx\\interface\\government_icon_merchant_republic.dds"
+	}
+	spriteType = {
+		name = "GFX_charframe_150_hermetic"
+		texturefile = "gfx\\interface\\charframe_150_merchantrepublic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_100_hermetic"
+		texturefile = "gfx\\interface\\charframe_100_merchantrepublic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_75_hermetic"
+		texturefile = "gfx\\interface\\charframe_75_merchantrepublic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_50_hermetic"
+		texturefile = "gfx\\interface\\charframe_50_merchantrepublic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+	spriteType = {
+		name = "GFX_charframe_34_hermetic"
+		texturefile = "gfx\\interface\\charframe_34_merchantrepublic.tga"
+		noOfFrames = 6
+		allwaystransparent = yes
+	}
+
+	###Artifacts
+	#Animal
+	spriteType = {
+		name = "GFX_hermetic_art_animal"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\animal.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_animal_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\animal_small.tga"
+	}
+	#Aquam
+	spriteType = {
+		name = "GFX_hermetic_art_aquam"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\aquam.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_aquam_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\aquam_small.tga"
+	}
+	#Auram
+	spriteType = {
+		name = "GFX_hermetic_art_auram"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\auram.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_auram_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\auram_small.tga"
+	}
+	#Corpus
+	spriteType = {
+		name = "GFX_hermetic_art_corpus"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\corpus.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_corpus_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\corpus_small.tga"
+	}
+	#Creo
+	spriteType = {
+		name = "GFX_hermetic_art_creol"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\creo.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_creo_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\creo_small.tga"
+	}
+	#Herbam
+	spriteType = {
+		name = "GFX_hermetic_art_herbam"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\herbam.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_herbam_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\herbam_small.tga"
+	}
+	#Ignem
+	spriteType = {
+		name = "GFX_hermetic_art_ignem"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\ignem.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_ignem_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\ignem_small.tga"
+	}
+	#Imaginem
+	spriteType = {
+		name = "GFX_hermetic_art_imaginem"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\imaginem.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_imaginem_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\imaginem_small.tga"
+	}
+	#Intellego
+	spriteType = {
+		name = "GFX_hermetic_art_intellego"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\intellego.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_intellego_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\intellego_small.tga"
+	}
+	#Mentem
+	spriteType = {
+		name = "GFX_hermetic_art_mentem"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mentem.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_mentem_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\mentem_small.tga"
+	}
+	#Muto
+	spriteType = {
+		name = "GFX_hermetic_art_muto"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\muto.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_muto_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\muto_small.tga"
+	}
+	#Perdo
+	spriteType = {
+		name = "GFX_hermetic_art_perdo"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\perdo.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_perdo_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\perdo_small.tga"
+	}
+	#Rego
+	spriteType = {
+		name = "GFX_hermetic_art_rego"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\rego.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_rego_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\rego_small.tga"
+	}
+	#Terram
+	spriteType = {
+		name = "GFX_hermetic_art_terram"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\terram.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_terram_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\terram_small.tga"
+	}
+	#Vim
+	spriteType = {
+		name = "GFX_hermetic_art_vim"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\vim.tga"
+	}	
+	spriteType = {
+		name = "GFX_hermetic_art_vim_small"
+		texturefile = "gfx\\interface\\inventory\\artifacts\\vim_small.tga"
+	}
+}

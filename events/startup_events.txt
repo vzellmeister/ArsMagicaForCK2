@@ -1,0 +1,50 @@
+###########################################
+#                                         #
+# AM Start-up events                      #
+#                                         #
+# ID AM.0001-AM.1000		              #
+#                                         #
+###########################################
+
+
+# Add all hermetics to Order of Hermes
+character_event = {
+    id = AM.0001
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        character = 900001
+    }
+    after = {
+        set_government_type = merchant_republic_government
+    }
+    add_artifact = sword_tier_1_new
+    character_event = { id = AM.0002 days = 5 }
+}
+
+character_event = {
+    id = AM.0002
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        character = 900001
+    }
+    after = {
+        set_government_type = merchant_republic_government
+    }
+    add_artifact = sword_tier_2_new
+    character_event = { id = AM.0002 days = 5 }
+}
+
+character_event = {
+    id = AM.0003
+    is_triggered_only = yes
+    hide_window = yes
+    trigger = {
+        character = 900001
+    }
+    # after = {
+    #     set_government_type = hermetic_government
+    # }
+    add_artifact = sword_tier_3_fury
+}

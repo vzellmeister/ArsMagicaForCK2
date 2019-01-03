@@ -1,0 +1,90 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+;;;;;;;;;;;;;;x
+gift;Has the Gift;;;;;;;;;;;;;;;;;;;x
+gift_desc;You have the ability to work magic. Your magical nature disturbs normal people and animals.;;;;;;;;;;;;;;;;;;;x
+gentle_gift;Has the Gentle Gift;;;;;;;;;;;;;;;;;;;x
+gentle_gift_desc;You have the ability to work magic. Your magical nature does not disturb normal people and animals, your Gift is subtle and quiet.;;;;;;;;;;;;;;;;;;;x
+blatant_gift;Has the Blatant Gift;;;;;;;;;;;;;;;;;;;x
+blatant_gift_desc;You have the ability to work magic. Your magical nature severely disturbs normal people and animals.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_0;Opened to the Hermetic Arts;;;;;;;;;;;;;x
+hermetic_level_0_desc;You have been opened to Hermetic Magic. You know only the absolute mininum about the ten Hermetic Forms and as such may only cast the most trivial spells.;;;;;;;;;;;;;x
+hermetic_level_animal_1;Apprentice of Animál;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_1_desc;You have achieved beginner level comprehension of the Art of Animál, which deals with the bodies and minds of beasts of all manners, as well as all materials of animal origins. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_1;Apprentice of Aquam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_1_desc;You have achieved beginner level comprehension of the Art of Aquam, which deals with liquids of all kinds. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_1;Apprentice of Auram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_1_desc;You have achieved beginner level comprehension of the Art of Auram, which deals with air, wind, vapours and all weather phenomena. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_1;Apprentice of Corpus;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_1_desc;You have achieved beginner level comprehension of the Art of Corpus, which deals with the human body, its components, and humours. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_1;Apprentice of Herbam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_1_desc;You have achieved beginner level comprehension of the Art of Herbam, which deals with plants of all kinds, as well as all objects made from plants (e.g.: ivory and paper). You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_1;Apprentice of Ignem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_1_desc;You have achieved beginner level comprehension of the Art of Ignem, which deals with fire, heat and cold, and light. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_1;Apprentice of Imáginem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_1_desc;You have achieved beginner level comprehension of the Art of Imáginem, which deals with images, illusions, and perception of all senses. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_1;Apprentice of Mentem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_1_desc;You have achieved beginner level comprehension of the Art of Mentem, which deals with the human mind and its faculties. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_1;Apprentice of Terram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_1_desc;You have achieved beginner level comprehension of the Art of Terram, which deals with earth, rocks, metals and all objects made of these materials. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_1;Apprentice of Vim;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_1_desc;You have achieved beginner level comprehension of the Art of Vim, which deals with magic and magical creatures of all kinds. You may cast spells of Second Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_2;Initiate of Animál;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_2_desc;You have achieved intermediate level comprehension of the Art of Animál, which deals with the bodies and minds of beasts of all manners, as well as all materials of animal origins. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_2;Initiate of Aquam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_2_desc;You have achieved intermediate level comprehension of the Art of Aquam, which deals with liquids of all kinds. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_2;Initiate of Auram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_2_desc;You have achieved intermediate level comprehension of the Art of Auram, which deals with air, wind, vapours and all weather phenomena. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_2;Initiate of Corpus;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_2_desc;You have achieved intermediate level comprehension of the Art of Corpus, which deals with the human body, its components, and humours. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_2;Initiate of Herbam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_2_desc;You have achieved intermediate level comprehension of the Art of Herbam, which deals with plants of all kinds, as well as all objects made from plants (e.g.: ivory and paper). You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_2;Initiate of Ignem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_2_desc;You have achieved intermediate level comprehension of the Art of Ignem, which deals with fire, heat and cold, and light. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_2;Initiate of Imáginem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_2_desc;You have achieved intermediate level comprehension of the Art of Imáginem, which deals with images, illusions, and perception of all senses. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_2;Initiate of Mentem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_2_desc;You have achieved intermediate level comprehension of the Art of Mentem, which deals with the human mind and its faculties. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_2;Initiate of Terram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_2_desc;You have achieved intermediate level comprehension of the Art of Terram, which deals with earth, rocks, metals and all objects made of these materials. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_2;Initiate of Vim;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_2_desc;You have achieved intermediate level comprehension of the Art of Vim, which deals with magic and magical creatures of all kinds. You may cast spells of Fourth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_3;Adept of Animál;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_3_desc;You have achieved advanced level comprehension of the Art of Animál, which deals with the bodies and minds of beasts of all manners, as well as all materials of animal origins. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_3;Adept of Aquam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_3_desc;You have achieved advanced level comprehension of the Art of Aquam, which deals with liquids of all kinds. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_3;Adept of Auram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_3_desc;You have achieved advanced level comprehension of the Art of Auram, which deals with air, wind, vapours and all weather phenomena. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_3;Adept of Corpus;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_3_desc;You have achieved advanced level comprehension of the Art of Corpus, which deals with the human body, its components, and humours. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_3;Adept of Herbam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_3_desc;You have achieved advanced level comprehension of the Art of Herbam, which deals with plants of all kinds, as well as all objects made from plants (e.g.: ivory and paper). You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_3;Adept of Ignem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_3_desc;You have achieved advanced level comprehension of the Art of Ignem, which deals with fire, heat and cold, and light. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_3;Adept of Imáginem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_3_desc;You have achieved advanced level comprehension of the Art of Imáginem, which deals with images, illusions, and perception of all senses. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_3;Adept of Mentem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_3_desc;You have achieved advanced level comprehension of the Art of Mentem, which deals with the human mind and its faculties. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_3;Adept of Terram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_3_desc;You have achieved advanced level comprehension of the Art of Terram, which deals with earth, rocks, metals and all objects made of these materials. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_3;Adept of Vim;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_3_desc;You have achieved advanced level comprehension of the Art of Vim, which deals with magic and magical creatures of all kinds. You may cast spells of Sixth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_4;Master of Animál;;;;;;;;;;;;;;;;;;;x
+hermetic_level_animal_4_desc;You have achieved master level comprehension of the Art of Animál, which deals with the bodies and minds of beasts of all manners, as well as all materials of animal origins. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_4;Master of Aquam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_aquam_4_desc;You have achieved master level comprehension of the Art of Aquam, which deals with liquids of all kinds. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_4;Master of Auram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_auram_4_desc;You have achieved master level comprehension of the Art of Auram, which deals with air, wind, vapours and all weather phenomena. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_4;Master of Corpus;;;;;;;;;;;;;;;;;;;x
+hermetic_level_corpus_4_desc;You have achieved master level comprehension of the Art of Corpus, which deals with the human body, its components, and humours. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_4;Master of Herbam;;;;;;;;;;;;;;;;;;;x
+hermetic_level_herbam_4_desc;You have achieved master level comprehension of the Art of Herbam, which deals with plants of all kinds, as well as all objects made from plants (e.g.: ivory and paper). You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_4;Master of Ignem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_ignem_4_desc;You have achieved master level comprehension of the Art of Ignem, which deals with fire, heat and cold, and light. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_4;Master of Imáginem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_imaginem_4_desc;You have achieved master level comprehension of the Art of Imáginem, which deals with images, illusions, and perception of all senses. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_4;Master of Mentem;;;;;;;;;;;;;;;;;;;x
+hermetic_level_mentem_4_desc;You have achieved master level comprehension of the Art of Mentem, which deals with the human mind and its faculties. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_4;Master of Terram;;;;;;;;;;;;;;;;;;;x
+hermetic_level_terram_4_desc;You have achieved master level comprehension of the Art of Terram, which deals with earth, rocks, metals and all objects made of these materials. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_4;Master of Vim;;;;;;;;;;;;;;;;;;;x
+hermetic_level_vim_4_desc;You have achieved master level comprehension of the Art of Vim, which deals with magic and magical creatures of all kinds. You may cast spells of Eighth Magnitude or lower.;;;;;;;;;;;;;;;;;;;x

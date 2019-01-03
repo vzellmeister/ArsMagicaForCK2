@@ -1,0 +1,38 @@
+slots = {
+    attack_spell = 1
+}
+#############################
+#####       Spells      #####
+#############################
+
+pilum_of_fire = { # CrIg
+	flags = { spell hermetic creo ignem formulaic magnitude_4 }
+    slot = attack_spell
+	stacking = no
+	allowed_gift = { always = no }
+
+	active = {
+		can_cast_ignem_4 = yes
+	}
+
+    #effects
+    combat_rating = 8
+
+	picture = "GFX_hermetic_art_ignem"
+}
+
+ball_of_abysmal_flame = { # CrIg
+	flags = { spell hermetic creo ignem formulaic magnitue_7 }
+    slot = attack_spell
+	stacking = no
+	allowed_gift = { always = no }
+	
+	active = {
+		can_cast_ignem_7 = yes
+	}
+
+    #effects
+    combat_rating = 14
+
+	picture = "GFX_hermetic_art_ignem"
+}
